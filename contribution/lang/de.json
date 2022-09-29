@@ -10,7 +10,7 @@
  	 	},
  	 	"quest": {
  	 	 	"trans": "Aufträge",
- 	 	 	"eng": "Quest"
+ 	 	 	"eng": "Quests"
  	 	},
  	 	"chat": {
  	 	 	"trans": "Kommunikation",
@@ -31,8 +31,8 @@
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Gib die Menge an die du einzahlen möchtest",
- 	 	 	 	 	"eng": "Please enter amount you want to deposit"
+ 	 	 	 	 	"trans": "Gib die Menge an, die du einzahlen möchtest. ",
+ 	 	 	 	 	"eng": "Please enter amount you want to deposit. "
  	 	 	 	},
  	 	 	 	"detail": {
  	 	 	 	 	"vars": [
@@ -70,7 +70,7 @@
  	 	 	},
  	 	 	"resource": {
  	 	 	 	"trans": "Ressourcen",
- 	 	 	 	"eng": "Resource"
+ 	 	 	 	"eng": "Resources"
  	 	 	},
  	 	 	"funding": {
  	 	 	 	"trans": "Geldmittel",
@@ -89,11 +89,11 @@
  	 	 	 	 	"nextUpkeepDate"
  	 	 	 	],
  	 	 	 	"trans": "Nächster Wartungstermin: ${nextUpkeepDate}",
- 	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
+ 	 	 	 	"eng": "Next Maintenance Date: ${nextUpkeepDate}"
  	 	 	},
  	 	 	"insufficientError": {
  	 	 	 	"trans": "Ressourcen kritisch",
- 	 	 	 	"eng": "resource critical"
+ 	 	 	 	"eng": "resources critical"
  	 	 	},
  	 	 	"insufficientFound": {
  	 	 	 	"trans": "Unzureichende Geldmittel",
@@ -105,7 +105,7 @@
  	 	 	},
  	 	 	"occupation": {
  	 	 	 	"noClan": {
- 	 	 	 	 	"trans": "Es hat noch keine Gang dieses Gebiet besetzt",
+ 	 	 	 	 	"trans": "Dieses Gebiet wurde noch nicht von einer Gang besetzt. ",
  	 	 	 	 	"eng": "No gang has occupied this area yet"
  	 	 	 	}
  	 	 	},
@@ -120,7 +120,7 @@
  	 	 	 	"eng": "Community Content"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Dieser Inhalt wird von der Community beigetragen. Klicke hier um eigenen Inhalt beizutragen.",
+ 	 	 	 	"trans": "Dieser Inhalt wird von der Community beigetragen. Klicke hier um deinen eigenen Inhalt beizutragen.",
  	 	 	 	"eng": "This content is contributed by the community. click here to contribute your own content."
  	 	 	}
  	 	},
@@ -165,8 +165,8 @@
  	 	 	 	 	},
  	 	 	 	 	"button": {
  	 	 	 	 	 	"title": {
- 	 	 	 	 	 	 	"trans": "Versuch es noch einmal",
- 	 	 	 	 	 	 	"eng": "Try Again"
+ 	 	 	 	 	 	 	"trans": "Versuche es noch einmal",
+ 	 	 	 	 	 	 	"eng": "Try it Again"
  	 	 	 	 	 	}
  	 	 	 	 	}
  	 	 	 	}
@@ -192,7 +192,7 @@
  	 	 	 	"eng": "Put Bitcoins into bank"
  	 	 	},
  	 	 	"withdraw": {
- 	 	 	 	"trans": "Auszahlen",
+ 	 	 	 	"trans": "Entnehmen",
  	 	 	 	"eng": "Withdraw"
  	 	 	},
  	 	 	"withdrawDesc": {
@@ -208,7 +208,7 @@
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVault": {
- 	 	 	 	"trans": "Gegenstand nehmen",
+ 	 	 	 	"trans": "Gegenstand entnehmen",
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
@@ -235,7 +235,7 @@
  	 	 	 	 	"eng": "How many would you like to put in the vault?"
  	 	 	 	},
  	 	 	 	"selectWithdrawItem": {
- 	 	 	 	 	"trans": "Wie viele möchtest du aus den Tresor nehmen?",
+ 	 	 	 	 	"trans": "Wie viele möchtest du aus dem Tresor nehmen?",
  	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	},
  	 	 	 	"selectDeposit": {
@@ -295,7 +295,7 @@
  	 	"chat": {
  	 	 	"reconnecting": {
  	 	 	 	"trans": "Verbindung wird wiederhergestellt",
- 	 	 	 	"eng": "Reestablishing connection"
+ 	 	 	 	"eng": "Re-establishing connection"
  	 	 	},
  	 	 	"notAtBottom": {
  	 	 	 	"trans": "Du betrachtest alte Nachrichten",
@@ -402,7 +402,7 @@
  	 	 	 	"eng": "fatal injury"
  	 	 	},
  	 	 	"topTitleRight": {
- 	 	 	 	"trans": "SL Krankenhaus",
+ 	 	 	 	"trans": "SL Medizinische Einrichtung",
  	 	 	 	"eng": "SL Medical Center"
  	 	 	},
  	 	 	"title": {
@@ -410,7 +410,7 @@
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
- 	 	 	 	"trans": "Kritischer Fehler: Neuronale Verbindung unterbrochen",
+ 	 	 	 	"trans": "Kritischer Fehler: Neurale Verbindung unterbrochen",
  	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
  	 	 	},
  	 	 	"progressBarTitle": {
@@ -508,7 +508,7 @@
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Globale Zeitsprünge ermöglichen es dir, AFK-Wartezeiten zu überspringen und die AFK-Aufgabe sofort zu beenden. \n     Dieser Effekt wird auf alle Spieler angewendet, die AFK-Aufgaben durchführen.",
- 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	 	"eng": "Global Skips allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
  	 	 	"itemTimeSkipButton": {
